@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: reactive-webflux
+
+server:
+  port: 8080
+
+infra:
+  restful:
+    user-svc:
+      baseUrl: http://127.0.0.1:8080
+      username: common
+      password: common
+    customer-svc:
+      baseUrl: http://127.0.0.1:8081
+      username: common
+      password: common
