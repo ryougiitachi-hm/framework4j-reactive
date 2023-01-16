@@ -104,7 +104,7 @@
 		<Logger name="com.alibaba.boot" level="info"/>
 		<Logger name="com.alibaba.cloud" level="info"/>
 		<Logger name="io.github.openfeign" level="trace"/>
-		<Logger name="io.reactivex" level="info"/>
+		<Logger name="reactor.core.publisher" level="debug"/>
 		<Logger name="per.itachi.framework4j.reactive.webflux" level="info"/>
 		<Root level="info">
 			<AppenderRef ref="Console"/>

@@ -7,4 +7,6 @@ public interface UserService {
     User getUserByNbr(String userNbr);
 
     void addUser(User user);
+
+    long getDelayedTime();
 }
